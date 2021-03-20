@@ -1,0 +1,6 @@
+with open('dataset_48784_7.txt') as f:
+	a = 0
+	for line in f:
+		if line.strip() != '':
+			a += 1
+print(a)
